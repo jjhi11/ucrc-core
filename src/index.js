@@ -4,6 +4,10 @@ import Map from "@arcgis/core/Map";
 import MapView from "@arcgis/core/views/MapView";
 import FeatureLayer from "@arcgis/core/layers/FeatureLayer";
 import LabelClass from "@arcgis/core/layers/support/LabelClass";
+import "@esri/calcite-components/dist/calcite/calcite.css";
+import { setAssetPath } from "@esri/calcite-components/dist/components";
+
+setAssetPath(location.href);
 
 
 const mainMap = new Map({
